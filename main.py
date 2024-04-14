@@ -238,7 +238,7 @@ if __name__ == "__main__":
     test_loader_extra3 = DataLoader(test_set, batch_size=config['batch_size'], shuffle=False, num_workers=0, pin_memory=True)
 
     model = Classifier().to(device)
-    # trainer(train_loader, valid_loader, model, config, device)
+    trainer(train_loader, valid_loader, model, config, device)
 
 
     # 测试并生成预测结果的csv

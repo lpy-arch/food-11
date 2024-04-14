@@ -1,0 +1,4 @@
+name: food
+channels:
+  - defaults
+prefix: /home/vatis/anaconda3/envs/food
